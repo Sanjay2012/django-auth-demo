@@ -42,29 +42,29 @@ A simple Django project demonstrating **user authentication** (registration, log
 
 1. **Clone the repository**
 
-git clone https://github.com/Sanjay2012/django-auth-demo.git
-cd <repo-name>
-Create a virtual environment
+> git clone https://github.com/Sanjay2012/django-auth-demo.git
+> cd <repo-name>
 
-python -m venv env
-Activate the virtual environment
+Create a virtual environment
+> python -m venv env
+> Activate the virtual environment
 
 Windows:
-env\Scripts\activate
+> env\Scripts\activate
 
 Mac/Linux:
-source env/bin/activate
+> source env/bin/activate
 
 
 Install dependencies
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 Apply migrations
-python manage.py migrate
+> python manage.py migrate
 
 Run the development server
-python manage.py runserver
-Open http://127.0.0.1:8000/ in your browser.
+> python manage.py runserver
+> Open http://127.0.0.1:8000/ in your browser.
 
 Contributing
 Contributions are welcome!
