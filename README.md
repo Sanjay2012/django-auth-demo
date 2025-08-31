@@ -93,26 +93,6 @@ Logout
 
 Click the Logout ✅ button to securely log out using a POST request.
 
-Project Structure
-pgsql
-Copy code
-django-auth-demo/
-├── manage.py
-├── <app_name>/
-│   ├── migrations/
-│   ├── templates/
-│   │   ├── base.html
-│   │   ├── index.html
-│   │   ├── login.html
-│   │   └── register.html
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── urls.py
-│   └── views.py
-├── db.sqlite3
-├── requirements.txt
-└── .gitignore
 Security Notes
 Logout uses POST requests with CSRF tokens for security.
 
