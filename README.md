@@ -32,14 +32,6 @@ A simple Django project demonstrating **user authentication** (registration, log
 
 ---
 
-## Demo Screenshots
-
-*(Optional: Add screenshots of your login page, home page, and registration page here.)*
-
----
-
-## Installation
-
 ### Prerequisites
 
 - Python 3.8+  
@@ -50,7 +42,7 @@ A simple Django project demonstrating **user authentication** (registration, log
 
 1. **Clone the repository**
 
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/Sanjay2012/django-auth-demo.git
 cd <repo-name>
 Create a virtual environment
 
@@ -74,41 +66,13 @@ Run the development server
 python manage.py runserver
 Open http://127.0.0.1:8000/ in your browser.
 
-Usage
-Navigate to the Home Page
-
-If logged in, you’ll see a welcome message with a secure logout button.
-
-If not logged in, links to Login and Register pages are shown.
-
-Register a new user
-
-Fill in the registration form and submit.
-
-Login
-
-Enter your username and password to log in.
-
-Logout
-
-Click the Logout ✅ button to securely log out using a POST request.
-
-Security Notes
-Logout uses POST requests with CSRF tokens for security.
-
-Do not commit your .env file with sensitive information like SECRET_KEY.
-
-Database (db.sqlite3) is ignored in .gitignore.
-
 Contributing
 Contributions are welcome!
-
-Fork the repository
-
-Create a new branch: git checkout -b feature/your-feature
-
-Commit your changes: git commit -m "Add your feature"
-
-Push to the branch: git push origin feature/your-feature
-
-Open a Pull Request
+1. Fork the repository
+2. Create a new branch: 
+  > git checkout -b feature/your-feature
+3. Commit your changes: 
+  > git commit -m "Add your feature"
+4. Push to the branch: 
+  > git push origin feature/your-feature
+5. Open a Pull Request
