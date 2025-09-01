@@ -9,7 +9,7 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
 
     # root index page
-    path('', TemplateView.as_view(template_name='../index.html'), name='home'),
+    path('', TemplateView.as_view(template_name='index.html'), name='home'),
 
     # Password reset
     path('password_reset/', auth_views.PasswordResetView.as_view(), name='password_reset'),
